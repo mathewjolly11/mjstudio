@@ -43,10 +43,17 @@ nav ul li a:hover {
                 url('11.jpg') center/cover;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
+font-size:xx-large;
     color: white;
     text-align: center;
     margin-top: 60px;
+}
+
+.ba{
+    position:absolute; 
+    left:75px;
+    top:310px;
 }
 
 /* Gallery Styles */
