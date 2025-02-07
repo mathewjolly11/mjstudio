@@ -316,3 +316,10 @@ footer {
 .btn:active{
     opacity: 0.8;
 }
+
+.custom-popup {
+    border-radius: 30px;
+    font-size: 30px;
+width:420px;
+
+}

@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Studio Signup</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="text/javascript">
-        function Signup() { 
-           alert('Signup successful!');
-         
-       }   
+
+      function signup(message, color) {
+            Swal.fire({
+                text: message,
+                background: color,
+                color: 'black', // Text color
+                confirmButtonColor: '#000', // Button color
+                customClass: {
+                    popup: 'custom-popup'
+                }
+            });
+        } 
        </script>
 </head>
 
@@ -47,7 +56,7 @@
             <a href="#">Forget Password</a>
             <a href="login.html">Login</a>
           </div>
-          <input type="submit" onclick="Signup()" value="Sign Up" class="btn" />
+          <input type="submit"onclick="signup('Sign Up Successfull!!','white')" value="Sign Up" class="btn" />
         </form>
       </div>
 
